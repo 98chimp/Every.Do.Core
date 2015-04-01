@@ -1,18 +1,18 @@
 //
-//  MasterViewController.m
+//  MasterToDoViewController.m
 //  Every.Do.Core
 //
 //  Created by Shahin on 2015-03-31.
 //  Copyright (c) 2015 98% Chimp. All rights reserved.
 //
 
-#import "MasterViewController.h"
+#import "MasterToDoViewController.h"
 
-@interface MasterViewController ()
+@interface MasterToDoViewController ()
 
 @end
 
-@implementation MasterViewController
+@implementation MasterToDoViewController
 
 - (void)awakeFromNib {
     [super awakeFromNib];
@@ -51,7 +51,7 @@
 - (IBAction)unwindToSave:(UIStoryboardSegue *)segue
 {
     AppDelegate *delegate = (AppDelegate *)[[UIApplication sharedApplication]delegate];
-    NewItemViewController *source = [segue sourceViewController];
+    NewToDoViewController *source = [segue sourceViewController];
     ToDoEntry *todoEntry = [NSEntityDescription insertNewObjectForEntityForName:@"ToDoEntry" inManagedObjectContext:delegate.managedObjectContext];
     todoEntry.title = source.neuTitle.text;
     todoEntry.itemDescription = source.neuDescription.text;

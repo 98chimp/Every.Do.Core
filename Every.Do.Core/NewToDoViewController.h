@@ -1,5 +1,5 @@
 //
-//  NewItemViewController.h
+//  NewToDoViewController.h
 //  Every.Do.Core
 //
 //  Created by Shahin on 2015-03-31.
@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "ToDoEntry.h"
 
-@interface NewItemViewController : UIViewController
+@interface NewToDoViewController : UIViewController
 
 @property (weak, nonatomic) IBOutlet UITextField *neuTitle;
 @property (weak, nonatomic) IBOutlet UITextView *neuDescription;

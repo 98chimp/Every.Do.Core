@@ -1,5 +1,5 @@
 //
-//  MasterViewController.h
+//  MasterToDoViewController.h
 //  Every.Do.Core
 //
 //  Created by Shahin on 2015-03-31.
@@ -10,14 +10,14 @@
 #import <CoreData/CoreData.h>
 #import "AppDelegate.h"
 #import "DetailViewController.h"
-#import "NewItemViewController.h"
+#import "NewToDoViewController.h"
 #import "ToDoTableViewCell.h"
 #import "ToDoEntry.h"
 #import "User.h"
 
 @class DetailViewController;
 
-@interface MasterViewController : UITableViewController <NSFetchedResultsControllerDelegate>
+@interface MasterToDoViewController : UITableViewController <NSFetchedResultsControllerDelegate>
 
 @property (strong, nonatomic) DetailViewController *detailViewController;
 

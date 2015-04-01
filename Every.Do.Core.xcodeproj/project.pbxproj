@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB12C9371ACC3E5100B51EF7 /* UserTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EB12C9361ACC3E5100B51EF7 /* UserTableViewCell.m */; };
+		EB12C93A1ACC3E7800B51EF7 /* NewUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB12C9391ACC3E7800B51EF7 /* NewUserViewController.m */; };
+		EB12C93D1ACC3E9000B51EF7 /* MasterUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB12C93C1ACC3E9000B51EF7 /* MasterUserViewController.m */; };
 		EB4D62FE1ACBC8540046C6A4 /* conference-32.png in Resources */ = {isa = PBXBuildFile; fileRef = EB4D62FD1ACBC8540046C6A4 /* conference-32.png */; };
 		EB4D63001ACBC8750046C6A4 /* to_do-32.png in Resources */ = {isa = PBXBuildFile; fileRef = EB4D62FF1ACBC8750046C6A4 /* to_do-32.png */; };
 		EB4D63021ACBC8940046C6A4 /* checklist-32.png in Resources */ = {isa = PBXBuildFile; fileRef = EB4D63011ACBC8940046C6A4 /* checklist-32.png */; };
@@ -15,7 +18,7 @@
 		EBC0AD111ACB3AC600EE6AA7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC0AD101ACB3AC600EE6AA7 /* main.m */; };
 		EBC0AD141ACB3AC600EE6AA7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC0AD131ACB3AC600EE6AA7 /* AppDelegate.m */; };
 		EBC0AD171ACB3AC600EE6AA7 /* Every_Do_Core.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EBC0AD151ACB3AC600EE6AA7 /* Every_Do_Core.xcdatamodeld */; };
-		EBC0AD1A1ACB3AC700EE6AA7 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC0AD191ACB3AC700EE6AA7 /* MasterViewController.m */; };
+		EBC0AD1A1ACB3AC700EE6AA7 /* MasterToDoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC0AD191ACB3AC700EE6AA7 /* MasterToDoViewController.m */; };
 		EBC0AD1D1ACB3AC700EE6AA7 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC0AD1C1ACB3AC700EE6AA7 /* DetailViewController.m */; };
 		EBC0AD201ACB3AC700EE6AA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBC0AD1E1ACB3AC700EE6AA7 /* Main.storyboard */; };
 		EBC0AD221ACB3AC700EE6AA7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBC0AD211ACB3AC700EE6AA7 /* Images.xcassets */; };
@@ -23,7 +26,7 @@
 		EBC0AD311ACB3AC700EE6AA7 /* Every_Do_CoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC0AD301ACB3AC700EE6AA7 /* Every_Do_CoreTests.m */; };
 		EBC0AD3C1ACB3C2500EE6AA7 /* ToDoEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC0AD3B1ACB3C2500EE6AA7 /* ToDoEntry.m */; };
 		EBC0AD3F1ACB424000EE6AA7 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC0AD3E1ACB423F00EE6AA7 /* User.m */; };
-		EBC0AD481ACB5CFF00EE6AA7 /* NewItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC0AD471ACB5CFF00EE6AA7 /* NewItemViewController.m */; };
+		EBC0AD481ACB5CFF00EE6AA7 /* NewToDoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC0AD471ACB5CFF00EE6AA7 /* NewToDoViewController.m */; };
 		EBC0AD4B1ACB5D3000EE6AA7 /* ToDoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC0AD4A1ACB5D3000EE6AA7 /* ToDoTableViewCell.m */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EB12C9351ACC3E5100B51EF7 /* UserTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserTableViewCell.h; sourceTree = "<group>"; };
+		EB12C9361ACC3E5100B51EF7 /* UserTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserTableViewCell.m; sourceTree = "<group>"; };
+		EB12C9381ACC3E7800B51EF7 /* NewUserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewUserViewController.h; sourceTree = "<group>"; };
+		EB12C9391ACC3E7800B51EF7 /* NewUserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewUserViewController.m; sourceTree = "<group>"; };
+		EB12C93B1ACC3E9000B51EF7 /* MasterUserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterUserViewController.h; sourceTree = "<group>"; };
+		EB12C93C1ACC3E9000B51EF7 /* MasterUserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterUserViewController.m; sourceTree = "<group>"; };
 		EB4D62FD1ACBC8540046C6A4 /* conference-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "conference-32.png"; sourceTree = "<group>"; };
 		EB4D62FF1ACBC8750046C6A4 /* to_do-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "to_do-32.png"; sourceTree = "<group>"; };
 		EB4D63011ACBC8940046C6A4 /* checklist-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checklist-32.png"; sourceTree = "<group>"; };
@@ -49,8 +58,8 @@
 		EBC0AD121ACB3AC600EE6AA7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EBC0AD131ACB3AC600EE6AA7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		EBC0AD161ACB3AC600EE6AA7 /* Every_Do_Core.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Every_Do_Core.xcdatamodel; sourceTree = "<group>"; };
-		EBC0AD181ACB3AC600EE6AA7 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		EBC0AD191ACB3AC700EE6AA7 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		EBC0AD181ACB3AC600EE6AA7 /* MasterToDoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterToDoViewController.h; sourceTree = "<group>"; };
+		EBC0AD191ACB3AC700EE6AA7 /* MasterToDoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterToDoViewController.m; sourceTree = "<group>"; };
 		EBC0AD1B1ACB3AC700EE6AA7 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		EBC0AD1C1ACB3AC700EE6AA7 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		EBC0AD1F1ACB3AC700EE6AA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -63,8 +72,8 @@
 		EBC0AD3B1ACB3C2500EE6AA7 /* ToDoEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToDoEntry.m; sourceTree = "<group>"; };
 		EBC0AD3D1ACB423F00EE6AA7 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
 		EBC0AD3E1ACB423F00EE6AA7 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
-		EBC0AD461ACB5CFF00EE6AA7 /* NewItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewItemViewController.h; sourceTree = "<group>"; };
-		EBC0AD471ACB5CFF00EE6AA7 /* NewItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewItemViewController.m; sourceTree = "<group>"; };
+		EBC0AD461ACB5CFF00EE6AA7 /* NewToDoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewToDoViewController.h; sourceTree = "<group>"; };
+		EBC0AD471ACB5CFF00EE6AA7 /* NewToDoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewToDoViewController.m; sourceTree = "<group>"; };
 		EBC0AD491ACB5D3000EE6AA7 /* ToDoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToDoTableViewCell.h; sourceTree = "<group>"; };
 		EBC0AD4A1ACB5D3000EE6AA7 /* ToDoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToDoTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,6 +96,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EB4D633C1ACC380C0046C6A4 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				EB4D62FD1ACBC8540046C6A4 /* conference-32.png */,
+				EB4D62FF1ACBC8750046C6A4 /* to_do-32.png */,
+				EB4D63011ACBC8940046C6A4 /* checklist-32.png */,
+				EB4D63051ACBC8F80046C6A4 /* user_male3-32.png */,
+				EB4D63031ACBC8BC0046C6A4 /* add_user-32.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
 		EBC0AD021ACB3AC600EE6AA7 = {
 			isa = PBXGroup;
 			children = (
@@ -110,25 +131,27 @@
 			children = (
 				EBC0AD121ACB3AC600EE6AA7 /* AppDelegate.h */,
 				EBC0AD131ACB3AC600EE6AA7 /* AppDelegate.m */,
-				EBC0AD181ACB3AC600EE6AA7 /* MasterViewController.h */,
-				EBC0AD191ACB3AC700EE6AA7 /* MasterViewController.m */,
-				EBC0AD1B1ACB3AC700EE6AA7 /* DetailViewController.h */,
-				EBC0AD1C1ACB3AC700EE6AA7 /* DetailViewController.m */,
-				EBC0AD461ACB5CFF00EE6AA7 /* NewItemViewController.h */,
-				EBC0AD471ACB5CFF00EE6AA7 /* NewItemViewController.m */,
+				EBC0AD181ACB3AC600EE6AA7 /* MasterToDoViewController.h */,
+				EBC0AD191ACB3AC700EE6AA7 /* MasterToDoViewController.m */,
 				EBC0AD491ACB5D3000EE6AA7 /* ToDoTableViewCell.h */,
 				EBC0AD4A1ACB5D3000EE6AA7 /* ToDoTableViewCell.m */,
+				EBC0AD1B1ACB3AC700EE6AA7 /* DetailViewController.h */,
+				EBC0AD1C1ACB3AC700EE6AA7 /* DetailViewController.m */,
+				EBC0AD461ACB5CFF00EE6AA7 /* NewToDoViewController.h */,
+				EBC0AD471ACB5CFF00EE6AA7 /* NewToDoViewController.m */,
 				EBC0AD3A1ACB3C2500EE6AA7 /* ToDoEntry.h */,
 				EBC0AD3B1ACB3C2500EE6AA7 /* ToDoEntry.m */,
+				EB12C93B1ACC3E9000B51EF7 /* MasterUserViewController.h */,
+				EB12C93C1ACC3E9000B51EF7 /* MasterUserViewController.m */,
+				EB12C9351ACC3E5100B51EF7 /* UserTableViewCell.h */,
+				EB12C9361ACC3E5100B51EF7 /* UserTableViewCell.m */,
+				EB12C9381ACC3E7800B51EF7 /* NewUserViewController.h */,
+				EB12C9391ACC3E7800B51EF7 /* NewUserViewController.m */,
 				EBC0AD3D1ACB423F00EE6AA7 /* User.h */,
 				EBC0AD3E1ACB423F00EE6AA7 /* User.m */,
 				EBC0AD1E1ACB3AC700EE6AA7 /* Main.storyboard */,
 				EBC0AD211ACB3AC700EE6AA7 /* Images.xcassets */,
-				EB4D62FD1ACBC8540046C6A4 /* conference-32.png */,
-				EB4D62FF1ACBC8750046C6A4 /* to_do-32.png */,
-				EB4D63011ACBC8940046C6A4 /* checklist-32.png */,
-				EB4D63051ACBC8F80046C6A4 /* user_male3-32.png */,
-				EB4D63031ACBC8BC0046C6A4 /* add_user-32.png */,
+				EB4D633C1ACC380C0046C6A4 /* images */,
 				EBC0AD231ACB3AC700EE6AA7 /* LaunchScreen.xib */,
 				EBC0AD151ACB3AC600EE6AA7 /* Every_Do_Core.xcdatamodeld */,
 				EBC0AD0E1ACB3AC600EE6AA7 /* Supporting Files */,
@@ -269,10 +292,13 @@
 			files = (
 				EBC0AD3C1ACB3C2500EE6AA7 /* ToDoEntry.m in Sources */,
 				EBC0AD3F1ACB424000EE6AA7 /* User.m in Sources */,
-				EBC0AD481ACB5CFF00EE6AA7 /* NewItemViewController.m in Sources */,
+				EB12C93A1ACC3E7800B51EF7 /* NewUserViewController.m in Sources */,
+				EB12C93D1ACC3E9000B51EF7 /* MasterUserViewController.m in Sources */,
+				EB12C9371ACC3E5100B51EF7 /* UserTableViewCell.m in Sources */,
+				EBC0AD481ACB5CFF00EE6AA7 /* NewToDoViewController.m in Sources */,
 				EBC0AD4B1ACB5D3000EE6AA7 /* ToDoTableViewCell.m in Sources */,
 				EBC0AD1D1ACB3AC700EE6AA7 /* DetailViewController.m in Sources */,
-				EBC0AD1A1ACB3AC700EE6AA7 /* MasterViewController.m in Sources */,
+				EBC0AD1A1ACB3AC700EE6AA7 /* MasterToDoViewController.m in Sources */,
 				EBC0AD141ACB3AC600EE6AA7 /* AppDelegate.m in Sources */,
 				EBC0AD171ACB3AC600EE6AA7 /* Every_Do_Core.xcdatamodeld in Sources */,
 				EBC0AD111ACB3AC600EE6AA7 /* main.m in Sources */,

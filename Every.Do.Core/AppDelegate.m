@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 #import "DetailViewController.h"
-#import "MasterViewController.h"
+#import "MasterToDoViewController.h"
 
 @interface AppDelegate () <UISplitViewControllerDelegate>
 
@@ -19,20 +19,18 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    UISplitViewController *splitViewController = (UISplitViewController *)self.window.rootViewController;
-    UINavigationController *navigationController = [splitViewController.viewControllers lastObject];
-    navigationController.topViewController.navigationItem.leftBarButtonItem = splitViewController.displayModeButtonItem;
-    splitViewController.delegate = self;
+    UITabBarController *tabBarController = (UITabBarController *)self.window.rootViewController;
+    UINavigationController *navigationController = [tabBarController.viewControllers lastObject];
+    navigationController.topViewController.navigationItem.leftBarButtonItem = tabBarController.displayModeButtonItem;
+    tabBarController.delegate = self;
 
-    UINavigationController *masterNavigationController = splitViewController.viewControllers[0];
-    MasterViewController *controller = (MasterViewController *)masterNavigationController.topViewController;
+    UINavigationController *masterNavigationController = tabBarController.viewControllers[0];
+    MasterToDoViewController *controller = (MasterToDoViewController *)masterNavigationController.topViewController;
     controller.managedObjectContext = self.managedObjectContext;
     return YES;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
-    // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
-    // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
 }
 
 - (void)applicationDidEnterBackground:(UIApplication *)application {
