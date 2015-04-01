@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 #import <CoreData/CoreData.h>
+#import "AppDelegate.h"
+#import "DetailViewController.h"
+#import "NewItemViewController.h"
+#import "ToDoTableViewCell.h"
+#import "ToDoEntry.h"
+#import "User.h"
 
 @class DetailViewController;
 
